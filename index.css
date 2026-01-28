@@ -1,3 +1,83 @@
-#heading {
-    color: red;
+.header {
+    display: flex ; 
+    color: rgb(62, 23, 219);
+    border: 1px dotted red;
+    justify-content: space-between;
+    background-color: rgb(231, 220, 245);     
+}
+
+.logo {
+    width: 120px; 
+    
+}
+
+.nav-items>ul {
+    display: flex;
+    list-style-type: none;
+
+}
+.nav-items>ul>li {
+    padding: 20px 50px;
+    margin: 10px;
+    text-decoration: none;
+    font-size:xx-large;    
+}
+
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+
+}
+.res-card {
+    margin: 20px;
+   
+    width: 200px;
+    padding: 5px;
+    background-color: rgb(193, 191, 187);
+}
+.res-card:hover{
+     border: 1px solid black;
+     cursor: pointer;
+
+}
+
+.res-logo{
+    width:100%;
+    height: 180px;
+}
+
+.filter-btn{
+    margin: 15px;
+    cursor: pointer;
+}
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card {
+    margin: 35px;
+    height: 400px;
+    width: 200px;
+    background-color: rgb(240, 240, 240);
+
+}
+
+.button {
+    color: blue;
+    background-color: rgb(211, 205, 214);
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.filter {
+    display: flex;
+}
+
+.search {
+    margin: 20px;
 }
